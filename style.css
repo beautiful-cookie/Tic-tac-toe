@@ -1,0 +1,70 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 100vw;
+    min-height: 200px;
+}
+
+.playground
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.btn 
+{
+    min-width: 50px;
+    min-height: 50px;
+    user-select: none;
+}
+
+.whoTurn
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin-top: 10px;
+}
+
+#Restart
+{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin-left: 1vw;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.score
+{
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
